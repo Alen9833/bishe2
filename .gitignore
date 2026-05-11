@@ -28,7 +28,9 @@ db.sqlite3-journal
 # Static / media
 staticfiles/
 media/
-
+# 忽略所有名为 poster 的文件夹及其内容
+poster/
+**/poster/
 # Cache
 .pytest_cache/
 .cache/
